@@ -5,11 +5,11 @@
 # Site
 title: blog
 subtitle: ''
-description: 'todo'
+description: ''
 keywords:
 author: naijoug
-language: zh-CN
-timezone: ''
+language: en
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -97,7 +97,34 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+## https://github.com/probberechts/hexo-theme-cactus
+theme: cactus
+
+theme_config:
+  projects_url: https://github.com/naijoug
+  nav:
+    home: /
+    articles: /archives/
+    projects: https://github.com/naijoug
+    about: /about/
+  social_links:
+    -
+      icon: github
+      link: https://github.com/naijoug
+    -
+      icon: twitter
+      link: https://twitter.com/naijoug
+    -
+      icon: mail
+      link: mailto:naijoug@outlook.com
+  logo:
+    enabled: true
+    width: 50
+    height: 50
+    gravatar: true
+  gravatar:
+    email: naijoug@outlook.com
+    hash: ab7e35258db202a67e071dc1000123bd
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
