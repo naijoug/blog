@@ -31,6 +31,10 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+       # 安装主题
+      - name: Install Theme
+        run: git submodule add https://github.com/probberechts/hexo-theme-cactus themes/cactus
+
       - name: Build
         run: npm run build
 
