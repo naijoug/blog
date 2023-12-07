@@ -105,7 +105,7 @@ theme_config:
   nav:
     home: /
     articles: /archives/
-    projects: https://github.com/naijoug
+    projects: https://naijoug.github.io/docs/
     about: /about/
   social_links:
     -
